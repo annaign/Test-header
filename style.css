@@ -27,6 +27,7 @@ body{
 .logo{
   width: 171px;
   height: 93px;
+  margin-bottom: 10px;
 }
 
 .phone{
@@ -44,6 +45,7 @@ body{
 
 .phone .phoneLink{
   align-self: flex-end;
+  margin-bottom: 10px;
 }
 
 .line{
@@ -168,4 +170,11 @@ body{
   .searchForm .bthSearch{  
     margin: 0;
   }
+}
+
+
+@media screen and (max-width: 1185px){
+  .container{
+    padding: 0 15px;
+  }  
 }
